@@ -1,0 +1,203 @@
+.header h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.content{
+    margin-top:60px!important;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.add-notes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.add-notes h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.create-notes{
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(231, 247, 255)
+
+}
+
+.create-notes input{
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.create-notes textarea{
+    width: 20%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.create-notes button{
+    width: 10%;
+    background: none;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #16cf63;
+    font-weight: 800;
+}
+.create-notes button:hover{
+    background-color: #4363e3;
+    color: #ffffff;
+}
+.notes h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.notes{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.notes-list{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    background-color: rgb(231, 247, 255);
+}
+.note-title{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50%;
+}
+.note-description{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50%;
+}
+.note-title ul{
+    list-style: none;
+}
+.note-title ul li{
+    background-color: #dddeff;
+    margin-bottom: 5px;
+    border: 1px solid rgb(229, 231, 240);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.note-title ul li span{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    width: 70%;
+    text-align: start;
+}
+.note-title ul li button{
+    
+    text-align: start;
+    border: none;
+    cursor: pointer;
+}
+.viewbtn{
+    width: 13%;
+    text-align: center;
+    background: none;
+    border: 1px solid #000000;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #a103bd;
+    font-weight: 800;
+
+}
+.dltbtn{
+    width: 15%;
+    text-align: center;
+    background: none;
+    border: 2px solid #000000;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #c6075a;
+    font-weight: 800;
+    text-align: center;
+}
+.viewbtn:hover{
+    background-color: #4e2ef2;
+    color: #ffffff;
+}
+.dltbtn:hover{
+    background-color: rgb(255, 0, 0);
+    color: #ffffff;
+}
+.note-description h3{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.note-description textarea{
+    width: 80%;
+    height: auto;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-weight: 400;
+}

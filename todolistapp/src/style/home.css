@@ -1,0 +1,41 @@
+.head{
+    text-align: center;
+    position:fixed;
+    top: 0;
+    left: 0;
+    height: 50px !important;
+    width: 100%;
+    background-color: #062baf;
+}
+.head h2{
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.content .home-content{
+    width: 100%;
+    margin-top: 50px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 50px;
+}
+.content .picture{
+    width: 33%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.content img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.content .home-content h1{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}

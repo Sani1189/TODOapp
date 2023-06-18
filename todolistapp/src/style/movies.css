@@ -1,0 +1,147 @@
+.header h2{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.movies{
+    margin-top:70px!important;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+.movie-add input{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    font-size: 15px;
+}
+
+.movie-add input{
+    width: 20%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    height: 40px;
+    font-size: 15px;
+}
+.movie-add button{
+    width: 10%;
+    background: none;
+    border: 2px solid #000000;
+    color: #000000;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background-color: #16cf63;
+    font-weight: 800;
+}
+.movie-add{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.movie-add button:hover{
+    background-color: #4363e3;
+    color: #ffffff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.movie-list{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    width: 70%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+}
+.movie-list ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.movie-list ul li{   
+    background-color: #dddeff;
+    margin-bottom: 10px;
+    border: 1px solid rgb(229, 231, 240);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.movie-list ul li div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.watched{
+    background-color: #dcffea;
+    color: #000000;
+}
+.not-watched{
+    color: #000000;
+}
+.movie-list ul li span{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    width: 60%;   
+    text-align: start;
+}
+.viewed{
+    text-decoration: line-through;
+    text-decoration-color: #180303;
+}
+.updatebtn{
+    background-color: #2b1bdf;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 800;
+    cursor: pointer;
+    margin-left: 10%;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+}
+.updatebtn:hover{
+    background-color: #58b360;
+    color: #000000;
+
+}
+.deletebtn{
+    background-color: #ff0000;
+    color: #ffffff;
+    padding: 5px;
+    font-size: 22px;
+    font-weight: 800;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+}
+.deletebtn:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
